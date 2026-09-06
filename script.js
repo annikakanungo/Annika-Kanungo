@@ -305,7 +305,7 @@ if (contactForm){
 
     const subject = encodeURIComponent(`Message from ${name} (via website)`);
     const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
-    window.location.href = `mailto:annika.kanungo@example.edu?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:annika.kanungo@gmail.com?subject=${subject}&body=${body}`;
   });
   } catch (err) { console.error('Contact form failed to initialize:', err); }
 }
